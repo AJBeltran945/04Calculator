@@ -1,0 +1,37 @@
+<div class="max-w-sm mx-auto mt-20 p-5 bg-blue-950 rounded shadow-lg">
+    <div class="text-right text-xl font-semibold p-3 bg-white rounded mb-4">
+        {{ display }}
+    </div>
+    <div class="grid grid-cols-4 gap-3">
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('7')" data-key="7">7</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('8')" data-key="8">8</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('9')" data-key="9">9</button>
+        <button class="p-5 bg-blue-500 text-white rounded shadow" (click)="performOperation('/')"
+            data-key="/">/</button>
+
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('4')" data-key="4">4</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('5')" data-key="5">5</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('6')" data-key="6">6</button>
+        <button class="p-5 bg-blue-500 text-white rounded shadow" (click)="performOperation('*')"
+            data-key="*">*</button>
+
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('1')" data-key="1">1</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('2')" data-key="2">2</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('3')" data-key="3">3</button>
+        <button class="p-5 bg-blue-500 text-white rounded shadow" (click)="performOperation('-')"
+            data-key="-">-</button>
+
+        <button class="p-5 bg-red-700 text-white rounded shadow" (click)="clearDisplay()" data-key="C">C</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('0')" data-key="0">0</button>
+        <button class="p-5 bg-white rounded shadow" (click)="appendToDisplay('.')" data-key=".">.</button>
+        <button class="p-5 bg-blue-500 text-white rounded shadow" (click)="performOperation('+')"
+            data-key="+">+</button>
+
+        <!-- Backspace Button -->
+        <button class="p-5 col-span-2 bg-orange-500 text-white rounded shadow" (click)="backspace()"
+            data-key="Backspace">←</button>
+        <!-- Equals Button -->
+        <button class="p-5 col-span-2 bg-green-500 text-white rounded shadow" (click)="calculateResult()"
+            data-key="=">=</button>
+    </div>
+</div>
