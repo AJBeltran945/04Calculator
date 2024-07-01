@@ -77,5 +77,5 @@ CSS file applying styles to the calculator using Tailwind CSS classes:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo-path/calculator-angular.git
-   cd calculator-angular
+   git clone https://github.com/AJBeltran945/04Calculator.git
+   cd 04Calculator
