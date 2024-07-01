@@ -12,7 +12,7 @@ export class CalculatorComponent {
   appendToDisplay(value: string) {
     if (value === '.') {
       const lastNumber = this.getLastNumber();
-      if (lastNumber.includes('.')) return; // Prevent multiple decimals in the last number
+      if (lastNumber.includes('.')) return;
     }
     this.display += value;
   }
@@ -27,7 +27,7 @@ export class CalculatorComponent {
   }
 
   performOperation(operator: string) {
-    if (this.display === '' || /[\+\-\*\/]$/.test(this.display)) return; // Prevent adding multiple operators
+    if (this.display === '' || /[\+\-\*\/]$/.test(this.display)) return;
     this.display += ` ${operator} `;
   }
 
