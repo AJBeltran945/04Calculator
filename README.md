@@ -84,18 +84,14 @@ CSS file applying styles to the calculator using Tailwind CSS classes:
     npm install
 </pre>
 
-3. **Clone the repository**:
+3. **Run the development server**:
 <pre>
     ng serve
 </pre>
 
-4. **Clone the repository**:
-<pre>
-\`\`\`bash
-    git clone https://github.com/AJBeltran945/04Calculator.git
-    cd 04Calculator
-\`\`\`
-</pre>
+4. **Open the application**:
+
+- Navigate to [http://localhost:4200](http://localhost:4200) in your web browser.
 
 ## Usage
 
