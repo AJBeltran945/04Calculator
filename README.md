@@ -1,7 +1,5 @@
 # Angular Calculator
 
-![Angular Calculator](https://github.com/your-repo-path/calculator-angular/blob/main/screenshot.png)
-
 ## Overview
 
 This is an aesthetically pleasing and functional calculator built using Angular and Tailwind CSS. The calculator supports basic arithmetic operations, input handling via both on-screen buttons and keyboard, and additional functionalities like backspace and decimal point operations.
@@ -112,5 +110,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## Contact
 
 For any inquiries or feedback, please contact [ajbeltran945@gmail.com](mailto:ajbeltran945@gmail.com).
-
----
