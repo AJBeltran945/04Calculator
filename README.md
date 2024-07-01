@@ -105,18 +105,12 @@ CSS file applying styles to the calculator using Tailwind CSS classes:
 
 ![Calculator](https://github.com/your-repo-path/calculator-angular/blob/main/screenshot.png)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contributions
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Contact
 
-For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or feedback, please contact [ajbeltran945@gmail.com](mailto:ajbeltran945@gmail.com).
 
 ---
-
-**Note**: Remember to replace placeholders such as `https://github.com/your-repo-path/calculator-angular.git`, `https://github.com/your-repo-path/calculator-angular/blob/main/screenshot.png`, and `your-email@example.com` with actual paths and contact information related to your project.
