@@ -101,7 +101,7 @@ CSS file applying styles to the calculator using Tailwind CSS classes:
 
 ## Screenshots
 
-![Calculator](https://github.com/your-repo-path/calculator-angular/blob/main/screenshot.png)
+![Calculator](https://github.com/AJBeltran945/04Calculator/blob/master/images/Screenshot.png)
 
 ## Contributions
 
