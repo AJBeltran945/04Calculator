@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an aesthetically pleasing and functional calculator built using Angular and Tailwind CSS. The calculator supports basic arithmetic operations, input handling via both on-screen buttons and keyboard, and additional functionalities like backspace and decimal point operations.
+This is a functional calculator built using Angular and Tailwind CSS. The calculator supports basic arithmetic operations, input handling via both on-screen buttons and keyboard, and additional functionalities like backspace and decimal point operations.
 
 ## Features
 
